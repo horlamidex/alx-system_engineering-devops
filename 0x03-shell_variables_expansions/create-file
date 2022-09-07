@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Enter file name: "
+read filename
+touch $filename | chmod u+x $filename
